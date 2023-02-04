@@ -19,10 +19,10 @@ export default defineConfig(function ({ mode }) {
         },
         server: {
             host: "localhost",
-            https: {
-                key: fs.readFileSync("../../etc/ssl/laragon.key"),
-                cert: fs.readFileSync("../../etc/ssl/laragon.crt"),
-            },
+            // https: {
+            //     key: fs.readFileSync("../../etc/ssl/laragon.key"),
+            //     cert: fs.readFileSync("../../etc/ssl/laragon.crt"),
+            // },
         },
     };
 });
